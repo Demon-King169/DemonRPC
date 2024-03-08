@@ -105,9 +105,7 @@ setTimeout(() => {
   } else {
     console.log("Client has succesfully logged in!")
   }
-}, 1 * 1000 * 20);
-const keepAlive = require("./server.js");
-keepAlive();
+},
 client.login(
   config.token
 );
